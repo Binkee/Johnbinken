@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+body {
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+/********** NAVBAR *******/
+.logo{
+  width: 120px;
+}
+nav .navbar-nav li a{
+  color: black!important;
+  }
+nav a.nav-link{
+  letter-spacing: 0.0375rem;
+  font-weight: 600;
+  color: black !important;
+}
+
+
+.navbar-nav > li > a{
+  color: white !important;
+  border-bottom: 3px solid rgba(255, 255, 255, 0);
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus{
+  border-bottom: 3px solid#007AF3;
+}
+
+.navbar-nav > li > a:hover{
+  border-bottom: 3px solid #007AF3;
+}
+
+.navbar-toggler-icon{
+  color:#007AF3 !important;
+}
+
+/********* HEADER ********/
+.info{
+  color:rgba(39, 37, 37, 0.801);
+  font-family: 'Raleway', sans-serif;
+}
+
+.main-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  color:white;
+  font-weight: 500;
+}
+
+/******************************CONTACTS *************************/
+.contacts {
+   padding: 3rem 0;
+}
+.contact h1 { 
+  color: black;
+  padding: 1.3rem 0;
+  text-transform: uppercase;
+}
+
+
+.contacts input, .contacts textarea{
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  resize: none;
+  border: 0;
+  border-bottom: 2px solid black;
+
+}
+
+.about{
+text-align: center;
+padding-top: 100px;
+font-size: 64px;
+}
+
+.hello{
+  text-align: center;
+  padding-top: 30px;
+ margin: 0 0 20px;
+}
