@@ -1,11 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class Projects extends Component {
-    render() {
-        return (
-            <div>
-                <h2>my projects</h2>
-            </div>
-        )
-    }
+const Projects = () => {
+    return (
+        <div>
+            <h3 className="projects">Projects</h3>
+            <div className="underline"></div>
+        </div>
+    )
 }
+
+export default Projects

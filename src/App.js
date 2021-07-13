@@ -14,7 +14,7 @@ import {BrowserRouter, Switch, Route } from "react-router-dom";
 function App() {
   return (
     <>
-    <body  style={{backgroundColor: "black"}}>
+  
   <BrowserRouter>
   <div className="app">
   <Navbar/>
@@ -26,7 +26,7 @@ function App() {
    </Switch>
    <Footer/>
    </div>
-  </BrowserRouter></body>
+  </BrowserRouter>
    </>
    
   );

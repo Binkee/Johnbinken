@@ -20,7 +20,7 @@ export default class Home extends Component {
                 <Typical className="Typer content-desktop"
             loop={Infinity}
             wrapper="b"
-            steps={['Front-end Developer', 5000, 'Mobile & Web Developement', 5000, 'Musician, Songwriter', 5000]}/></div>
+            steps={['Front-end Developer', 2000, 'Mobile & Web Developer', 2000, 'Musician, Songwriter', 2000]}/></div>
                  
 <div className="container-btn"><Link to="/contact"><button className="contact" >Contact me</button></Link></div>
             
@@ -28,7 +28,8 @@ export default class Home extends Component {
                
                 </div>
                 <div className="blob">
-                <img src={blob} alt="logo"/>
+                
+
                 
                 
                 </div>    
