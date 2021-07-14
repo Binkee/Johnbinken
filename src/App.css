@@ -7,7 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 body {
   font-family: 'Poppins', sans-serif;
-  background:#fff5ee !important;
+  background:#f8f8ff !important;
   
 }
 
@@ -183,7 +183,8 @@ button .home{
 
 @media (max-width: 780px) {
   .home { 
-    padding:100px;
+    
+    margin-top: 50px;
     flex-direction: column;
   }
  .content-mobile{
@@ -194,7 +195,9 @@ button .home{
   font-family: 'Raleway','sans-serif';
  }
  .blob{
-display:none;
+position: end;
+height: 180px;
+width: 180px;
  }
  .content-desktop{
    line-height: 1;
@@ -246,7 +249,7 @@ h6{
 /******************************CONTACTS *************************/
 .contact {
   text-align: center;
-padding-top: 150px;
+padding-top: 75px;
 font-family: "poppins";
 font-size: 50px;
 }
@@ -262,7 +265,7 @@ padding-top: 60px;
 
 h3.about{
 text-align: center;
-padding-top: 150px;
+padding-top: 75px;
 font-family: "poppins";
 font-size: 50px;
 
@@ -271,12 +274,16 @@ font-size: 50px;
 
 .projects{
   text-align: center;
-padding-top:150PX;
+padding-top:75PX;
 font-family: "poppins";
 font-size: 50px;
 }
 
-
+.portfolio {
+  display: flex;
+  align-items: center ;
+  flex-direction: column;
+}
 .hello{
  text-align: center;
   padding-top: 30px;
@@ -361,4 +368,16 @@ font-family: "poppins";
 font-size: 50px;
 text-align: center;
 
+}
+.projects-container{
+  width: 100%;
+    display: block;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.screenshot{
+  width: 250px  !important;
 }

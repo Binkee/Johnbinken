@@ -10,6 +10,7 @@ export default class Contact extends Component {
          
          <p className="contact-info">If you would like to get in touch.. <br/>
          You can mail me <a href="mailto:devbinken@gmail.com">here</a> </p><br/>
+         <p>+31651970476</p>
         
             </div>
         )

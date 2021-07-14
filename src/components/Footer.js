@@ -15,7 +15,7 @@ const Footer = () => {
         
         <a href="mailto:devbinken@gmail.com"><BsEnvelopeFill size="40px" color="black"/></a>
 
-        <a href="https://www.linkedin.com/in/johannes-binken-40b887123/"><FaGithub size="40px" color="black"/></a>
+        <a href="hhttps://github.com/Binkee"><FaGithub size="40px" color="black"/></a>
        
         </div>
        <p className="binken">© John Binken. All rights Reserved.</p> 
