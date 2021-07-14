@@ -7,9 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 body {
   font-family: 'Poppins', sans-serif;
-  background: #fefefa
-
-
+  background:#fff5ee !important;
   
 }
 
@@ -40,7 +38,7 @@ nav .navbar-nav li a{
   color: #000000!important;
   font-weight:400;
   font-size: 20px;
-  font-family: "Roboto";
+  font-family: "Raleway";
   }
 nav a.nav-link{
   letter-spacing: 0.0375rem;
@@ -79,28 +77,23 @@ nav a.nav-link{
 	align-content: stretch;
   padding:100px;
   flex: 1 1 auto;
-  position: relative;
-  font-family: "Poppins";
-  min-height: 5vh;
+  
+  font-family: "Raleway";
+  min-height: 50vh;
   
  
 }
 
 
-.hero{
-  padding-top: -20px;
-  line-height: 0.5;
-  
-  
-}
+
   .Typer{
    
   font-size: 16PX;
   color: #ac840c;
 line-height: 1;
   font-family: 'Raleway','sans-serif';
-  
-}
+  position:absolute;
+  }
 
 
   
@@ -124,7 +117,7 @@ line-height: 1;
   cursor: pointer;
   font-size: 18px;
   margin-left: auto;
-  margin-top: 15px;
+  margin-top: 30px;
   color: #fEfefa;
   padding: 10px 10px;
   border-radius:20px;
@@ -133,6 +126,7 @@ line-height: 1;
   "cursive";
   width: 150px;
   margin-bottom: 150px;
+ position: relative;
  
 }
 
@@ -155,11 +149,11 @@ button .home{
  
    /* height: 40vw;(dc500-c066de);
   width: 40vw; */
-  background: #fDc500;
+  background: linear-gradient(135deg, hsla(47, 100%, 50%, 1) 0%, hsla(28, 65%, 48%, 1) 100%);
   position: center;
-  top: 500px;
+  top: 800px;
   left: 200px;
-  animation: move 15s linear infinite;
+  animation: move 10s linear infinite;
   z-index: 0;
 }
 
@@ -189,7 +183,7 @@ button .home{
 
 @media (max-width: 780px) {
   .home { 
-    padding:50px;
+    padding:100px;
     flex-direction: column;
   }
  .content-mobile{
@@ -200,29 +194,39 @@ button .home{
   font-family: 'Raleway','sans-serif';
  }
  .blob{
-   position: fixed;
-   top:400px;
-   
-   
-   
-   
-    width:155px;  
-    height: 155px;
+display:none;
  }
  .content-desktop{
    line-height: 1;
  }
  button.contact{
-  margin-top: 10PX;
+ 
   height: 45px;
-  position: relative;
+  
   right: 10px;
  }
  .main-footer{
    height: 120px;
    padding:20px
  }
- 
+ .hello{
+   font-size: 18px!important;
+   font-family: "Roboto"  !important;
+   font-style: bold!important;
+   white-space: nowrap;
+   overflow:scroll
+ }
+ h3.contact, .about, .projects {
+   font-size: 32px !important;
+   padding:70px!important;
+ }
+ .underline{
+   margin-top:-70px!important;
+ }
+
+ .skills{
+   margin-top: 40px !important;
+ }
 }
 @media (max-width: 560px) {
 
@@ -234,16 +238,15 @@ h6{
   
   
 }
-.blob{
-  position: end;
-  top:400px
+
 }
-}
+
+  
 
 /******************************CONTACTS *************************/
 .contact {
   text-align: center;
-padding-top: 75px;
+padding-top: 150px;
 font-family: "poppins";
 font-size: 50px;
 }
@@ -259,15 +262,16 @@ padding-top: 60px;
 
 h3.about{
 text-align: center;
-padding-top: 75px;
+padding-top: 150px;
 font-family: "poppins";
 font-size: 50px;
+
 
 }
 
 .projects{
   text-align: center;
-padding-top: 75px;
+padding-top:150PX;
 font-family: "poppins";
 font-size: 50px;
 }
@@ -275,10 +279,11 @@ font-size: 50px;
 
 .hello{
  text-align: center;
-  padding-top: 20px;
+  padding-top: 30px;
  margin: 0 0 20px;
- font-family: 'raleway';
-    font-size: 20px;
+ font-family: 'ALTO';
+    font-size: 24px;
+    font-style: BOLD;
    
 }
 
@@ -332,3 +337,28 @@ a.contacts{
   text-decoration: underline;
 }
 
+.skills {
+  font-family:"raleway";
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  color:#007fda;
+  padding: 10px
+}
+
+
+/* 404 */
+.notFound{
+  text-align: center;
+  font-size: 22px;
+  font-family: "Raleway";
+  margin-top: 40px;
+} 
+
+.cantFind{
+  padding-top: 175px;
+font-family: "poppins";
+font-size: 50px;
+text-align: center;
+
+}

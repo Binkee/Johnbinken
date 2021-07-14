@@ -9,7 +9,7 @@ import About from './components/About'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
-
+import NotFound from './components/NotFound'
 import {BrowserRouter, Switch, Route } from "react-router-dom";
 function App() {
   return (
@@ -23,6 +23,7 @@ function App() {
     <Route component={About} path="/about"/>
     <Route component={Projects} path="/projects"/>
     <Route component={Contact} path="/contact"/>
+    <Route component={NotFound}/>
    </Switch>
    <Footer/>
    </div>

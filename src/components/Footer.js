@@ -10,12 +10,12 @@ const Footer = () => {
         <div className="footer-container">  
         
         <div className="social-icons">  
-        <a href="https://www.linkedin.com/in/johannes-binken-40b887123/"><FaLinkedin size="40px" color="#fdc500"/></a>
+        <a href="https://www.linkedin.com/in/johannes-binken-40b887123/"><FaLinkedin size="40px" color="black"/></a>
         
         
-        <a href="mailto:devbinken@gmail.com"><BsEnvelopeFill size="40px" color="#fdc500"/></a>
+        <a href="mailto:devbinken@gmail.com"><BsEnvelopeFill size="40px" color="black"/></a>
 
-        <a href="https://www.linkedin.com/in/johannes-binken-40b887123/"><FaGithub size="40px" color="#fdc500"/></a>
+        <a href="https://www.linkedin.com/in/johannes-binken-40b887123/"><FaGithub size="40px" color="black"/></a>
        
         </div>
        <p className="binken">© John Binken. All rights Reserved.</p> 
