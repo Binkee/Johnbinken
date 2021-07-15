@@ -6,14 +6,17 @@ const Projects = () => {
     return (
         <div className="projects-container">
            
-           <h3 className="title-projects">Projects</h3>
-                
-                <div className="project-section">
+           <h3 className="contact">Projects</h3>
+           <div className="underline"></div>
+         
+         <p className="contact-info">Under construction....</p>
+       
+              {/*  <div className="project-section">
                   <a href="http://wildspotter.herokuapp.com/">
                       <img className="screenshot" alt="project-wildspotter" src={screenshot}/>
                   </a>
                 <div className="project-info"></div>
-        </div>
+    </div>*/}
         </div>
     )
 }

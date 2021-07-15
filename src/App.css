@@ -173,13 +173,6 @@ button .home{
 
 
 
-.content-mobile{
-  display:none;
-}
-
-.content-desktop{
-  display:block;
-}
 
 @media (max-width: 780px) {
   .home { 
