@@ -1,16 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 body {
-  font-family: 'Poppins', sans-serif;
-  background:#f8f8ff !important;
-  
+  font-family: "Poppins", sans-serif;
+  background: #f8f8ff !important;
 }
-
 
 .app {
   display: flex;
@@ -20,136 +19,116 @@ body {
   min-height: 100vh;
   border-radius: 10px;
   flex-direction: column;
-  
-  
 }
 
-
-
-
-
 /********** NAVBAR *******/
-.logo{
+.logo {
   width: 120px;
   text-shadow: #fdc500;
 }
 
-nav .navbar-nav li a{
-  color: #000000!important;
-  font-weight:400;
+nav .navbar-nav li a {
+  color: #000000 !important;
+  font-weight: 400;
   font-size: 20px;
   font-family: "Raleway";
-  }
-nav a.nav-link{
+}
+nav a.nav-link {
   letter-spacing: 0.0375rem;
-  color:rgba(253, 197, 0, 1) !important;
+  color: rgba(253, 197, 0, 1) !important;
 }
 
-
-.navbar-nav > li > a{
-  color:#F0EAD6 !important;
-  
+.navbar-nav > li > a {
+  color: #f0ead6 !important;
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus{
-  border-bottom: 3px solid  #007fda
-  ;
+.navbar-nav > li > a.active,
+.navbar-nav > li > a.active:focus {
+  border-bottom: 3px solid #007fda;
 }
 
-.navbar-nav > li > a:hover{
-  border-bottom: 3px solid  #007fda ;
-  ;
+.navbar-nav > li > a:hover {
+  border-bottom: 3px solid #007fda;
 }
 
-.navbar-toggler-icon{
-  color:#007fda!important;
+.navbar-toggler-icon {
+  color: #007fda !important;
 }
-
 
 /********** Home *******/
-.home  {
-	
+.home {
   display: flex;
-	flex-direction:row;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	align-items: center;
-	align-content: stretch;
-  padding:100px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
+  padding: 100px;
   flex: 1 1 auto;
-  
+
   font-family: "Raleway";
   min-height: 50vh;
-  
- 
 }
 
-
-
-  .Typer{
-   
-  font-size: 16PX;
+.Typer {
+  font-size: 16px;
   color: #ac840c;
-line-height: 1;
-  font-family: 'Raleway','sans-serif';
-  position:absolute;
-  }
-
-
-  
-  
-
-
-.underline{
-  border-bottom: 5px solid #fdc500;
-    width:7rem;
-    height: 0.5rem;
-    margin-bottom: 0.5rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top:-7px;
+  line-height: 1;
+  font-family: "Raleway", "sans-serif";
+  position: absolute;
 }
 
+.underline {
+  border-bottom: 5px solid #fdc500;
+  width: 7rem;
+  height: 0.5rem;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -7px;
+}
 
- .home button {
+.home button {
   border: none;
   outline: none;
   cursor: pointer;
   font-size: 18px;
   margin-left: auto;
   margin-top: 30px;
-  color: #fEfefa;
+  color: #fefefa;
   padding: 10px 10px;
-  border-radius:20px;
-  background: rgb(0,122,243);
-  font-family: "poppins", 
-  "cursive";
+  border-radius: 20px;
+  background: rgb(0, 122, 243);
+  font-family: "poppins", "cursive";
   width: 150px;
   margin-bottom: 150px;
- position: relative;
- 
+  position: relative;
 }
 
-
-
-button .home{
+button .home {
   width: 100%;
   display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	align-items: center;
-	align-content: stretch;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
 }
-
+.contact1 {
+  display: none;
+}
 .blob {
-  border-radius: 25% 300% 50% 50%  ;
+  border-radius: 25% 300% 50% 50%;
   height: 220px;
-  width: 220px; 
- 
-   /* height: 40vw;(dc500-c066de);
+  width: 220px;
+
+  /* height: 40vw;(dc500-c066de);
   width: 40vw; */
-  background: linear-gradient(135deg, hsla(47, 100%, 50%, 1) 0%, hsla(28, 65%, 48%, 1) 100%);
+  background: linear-gradient(
+    135deg,
+    hsla(47, 100%, 50%, 1) 0%,
+    hsla(28, 65%, 48%, 1) 100%
+  );
   position: center;
   top: 800px;
   left: 200px;
@@ -158,219 +137,400 @@ button .home{
 }
 
 @keyframes move {
-  0%   { transform: scale(1)  translate(0px, 0px); }
-  20%  { transform: scale(0.9) translate(40px, 20px) rotate(90deg); }
-  40%  { transform: scale(0.8) translate(50px, 70px) rotate(120deg); }
-  60%  { transform: scale(0.7) translate(30px, 10px) rotate(20deg); }
-  80%  { transform: scale(0.9)translate(10px, 80px) rotate(20deg); }
-  100% { transform: scale(1) translate(0px, 0px); } 
-} 
-
-
-
-
-
-
-
-
+  0% {
+    transform: scale(1) translate(0px, 0px);
+  }
+  20% {
+    transform: scale(0.9) translate(40px, 20px) rotate(90deg);
+  }
+  40% {
+    transform: scale(0.8) translate(50px, 70px) rotate(120deg);
+  }
+  60% {
+    transform: scale(0.7) translate(30px, 10px) rotate(20deg);
+  }
+  80% {
+    transform: scale(0.9) translate(10px, 80px) rotate(20deg);
+  }
+  100% {
+    transform: scale(1) translate(0px, 0px);
+  }
+}
 
 @media (max-width: 780px) {
-  .home { 
-    
-    margin-top: 50px;
+  .home {
+    padding: 40px;
+    margin-top: 30px;
     flex-direction: column;
   }
- .content-mobile{
-   display: block;
-   color: #ac840c;
-   display: flex;
-   flex-direction: row; 
-  font-family: 'Raleway','sans-serif';
- }
- .blob{
-position: end;
-height: 180px;
-width: 180px;
- }
- .content-desktop{
-   line-height: 1;
- }
- button.contact{
- 
-  height: 45px;
-  
-  right: 10px;
- }
- .main-footer{
-   height: 120px;
-   padding:20px
- }
- .hello{
-   font-size: 18px!important;
-   font-family: "Roboto"  !important;
-   font-style: bold!important;
-   white-space: nowrap;
-   overflow:scroll
- }
- h3.contact, .about, .projects {
-   font-size: 32px !important;
-   padding:70px!important;
- }
- .underline{
-   margin-top:-70px!important;
- }
+  .content-mobile {
+    display: block;
+    color: #ac840c;
+    display: flex;
+    flex-direction: row;
+    font-family: "Raleway", "sans-serif";
+  }
+  .blob {
+    position: static;
+    margin-top: -220px;
+    height: 160px;
+    width: 160px;
+  }
+  .content-desktop {
+    line-height: 1;
+  }
+  button.contact {
+    height: 45px;
 
- .skills{
-   margin-top: 40px !important;
- }
+    right: 10px;
+  }
+  .main-footer {
+    height: 120px;
+    padding: 20px;
+  }
+  .hello {
+    font-size: 18px !important;
+    font-family: "Roboto" !important;
+    font-style: bold !important;
+    white-space: nowrap;
+    overflow: scroll;
+  }
+  h3 .contact .projects {
+    font-size: 32px !important;
+  }
+  .about {
+    overflow: scroll;
+  }
+
+  .skills {
+    margin-top: 40px !important;
+  }
 }
 @media (max-width: 560px) {
-
-h1{
-  font-size: 32px !important;
-}
-h6{
-  font-size: 14px!important;
-  
-  
+  h1 {
+    font-size: 32px !important;
+  }
+  h6 {
+    font-size: 14px !important;
+  }
 }
 
+@media (min-width: 380px) {
+  .blob {
+    height: 120px;
+    width: 120px;
+  }
+}
+@media (max-width: 320px) {
+  .hello {
+    font-size: 12px;
+  }
+  .skills {
+    font-size: 16px !important;
+  }
+  .contact {
+    display: none;
+  }
+  .contact1 {
+    display: block;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 50px;
+  }
+
+  .main-footer {
+    height: 16% !important;
+   
+  }
+  .blob {
+    height: 120px;
+    width: 120px;
+  }
+  .contact {
+    text-align: center;
+    padding: 35px;
+    font-family: "poppins";
+    font-size: 50px;
+  }
 }
 
-  
+@media screen and (min-device-height: 1050px), screen and (min-width: 1340px) {
+  .about {
+    font-size: 100px !important;
+    margin-top: 120px;
+  }
+  .logo {
+    width: 220px !important;
+  }
+
+  .nav-link {
+    font-size: 32px !important;
+  }
+  .underline {
+    width: 304px;
+  }
+  .hello {
+    font-size: 40px !important;
+    margin-top: 60px !important;
+  }
+  .main-footer {
+    height: 15% !important;
+  }
+  .skills {
+    font-size: 40px !important;
+  }
+  .contact-btn {
+    width: 340px !important;
+    font-size: 32px !important;
+    border-radius: 400px !important;
+    margin-top: 50px !important;
+  }
+  .hero h1 {
+    font-size: 80px !important;
+  }
+
+  .Typer {
+    font-size: 32px !important;
+  }
+
+  .blob {
+    height: 300px;
+    width: 300px;
+  }
+  .social-icons {
+    display: none !important;
+  }
+
+  .social-icons2 {
+    display: flex !important;
+    justify-content: space-evenly !important;
+    margin-top: 20px;
+    margin-right: 20px;
+    color: #f0ead6;
+  }
+  .icon-ipad {
+    display: block !important;
+    height: 200px !important;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .main-footer {
+    height: 250px !important;
+
+    margin-top: 0.2rem;
+
+    width: 100 !important;
+
+    text-align: center !important;
+    background: linear-gradient(
+      90deg,
+      hsla(210, 100%, 48%, 1) 0%,
+      hsla(229, 53%, 48%, 1) 100%
+    );
+    font-style: oblique;
+    font-family: "poppins";
+    display: grid !important;
+  }
+  .binken {
+    font-size: 30px !important;
+    margin-top: -30px !important;
+  }
+}
 
 /******************************CONTACTS *************************/
 .contact {
   text-align: center;
-padding-top: 75px;
-font-family: "poppins";
-font-size: 50px;
+  padding-top: 75px;
+  font-family: "poppins";
+  font-size: 50px;
 }
 
-
-
-.contact-info{
-font-family: "raleway";
-font-size: 20px;
-text-align: CENTER;
-padding-top: 60px;
-}
-
-h3.about{
-text-align: center;
-padding-top: 75px;
-font-family: "poppins";
-font-size: 50px;
-
-
-}
-
-.projects{
+.project {
   text-align: center;
-padding-top:75PX;
-font-family: "poppins";
-font-size: 50px;
+ margin-top: 40px;
+  font-family: "poppins";
+  font-size: 50px;
+}
+  .tech {
+ 
+  }
+
+.screenshot {
+  width: 180px !important;
+  margin-right: 50px;
 }
 
+.project-section{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+ margin-bottom: 30px;
+  
+  
+}
+
+.highlight{
+  background-color: #eddc6b;
+  
+  border-radius: 5px;
+  
+ margin-left: 10px;
+ margin-right: 20px;
+  padding:2px;
+ 
+}
+.MuiPaper-root{
+  height:340px;
+  width: 500px;
+  border-radius: 2PX;
+  background-color:#f8f8ff!important;
+  font-family: "raleway";
+  padding:16px 16px 24px
+}  
+.title{
+  margin-left:10px;
+  margin-top:30px;
+  font-weight: 500;
+  font-size: 30px;
+  font-family: "comfortaa";
+  }
+
+  .project-container{
+    margin-bottom: 250px;
+  }
+  .text {
+    margin-left: 10px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    overflow: hidden;
+    font-family: "comfortaa";
+    font-size: 18px;
+  }
+.contact-info {
+  font-family: "raleway";
+  font-size: 20px;
+  text-align: CENTER;
+  padding-top: 60px;
+}
+
+h3.about {
+  text-align: center;
+  padding-top: 75px;
+  font-family: "poppins";
+  font-size: 50px;
+}
+
+.underline {
+  margin-top: 10px;
+}
 .portfolio {
   display: flex;
-  align-items: center ;
+  align-items: center;
   flex-direction: column;
 }
-.hello{
- text-align: center;
+.hello {
+  text-align: center;
   padding-top: 30px;
- margin: 0 0 20px;
- font-family: 'ALTO';
-    font-size: 24px;
-    font-style: BOLD;
-   
+  margin: 0 0 20px;
+  font-family: "ALTO";
+  font-size: 24px;
+  font-style: BOLD;
 }
-
+@media (max-width: 770px){
+  .project-section{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+ margin-bottom: 30px;
+  
+  }
+}
 /*
 =============== 
 Footer
 ===============
 */
-
+.paper {
+  padding: 3000px;
+}
 .main-footer {
   height: 100px;
-  
-    margin-top: 0.2rem;
-    padding:1px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-  
-text-align: center;
-background: linear-gradient(90deg, hsla(210, 100%, 48%, 1) 0%, hsla(229, 53%, 48%, 1) 100%);
-font-style: oblique;
-font-family: "poppins";
 
-display: grid;
-  place-items: center
+  margin-top: 0.2rem;
+  padding: 1px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+  text-align: center;
+  background: linear-gradient(
+    90deg,
+    hsla(210, 100%, 48%, 1) 0%,
+    hsla(229, 53%, 48%, 1) 100%
+  );
+  font-style: oblique;
+  font-family: "poppins";
+
+  display: grid;
+  place-items: center;
 }
-.social-icons{
+.social-icons {
   display: flex;
   justify-content: space-evenly;
   margin-top: 20px;
-  color: #F0EAD6;
+  color: #f0ead6;
 }
-
-.binken{
+.icon-ipad {
+  display: none;
+}
+.binken {
   font-family: "raleway";
   font-weight: 400;
   font-size: 13px;
   margin-top: 10px;
   font-style: oblique;
-  color:#0e1111	
- 
+  color: #0e1111;
 }
-a.contacts{
+a.contacts {
   font-style: bold;
 
-  color: #2956B2 !important;
+  color: #2956b2 !important;
 }
 
-.johnBinken{
+.johnBinken {
   text-decoration: underline;
 }
 
 .skills {
-  font-family:"raleway";
+  font-family: "raleway";
   font-size: 20px;
   font-weight: 400;
   text-align: center;
-  color:#007fda;
-  padding: 10px
+  color: #007fda;
+  padding: 10px;
 }
 
-
 /* 404 */
-.notFound{
+.notFound {
   text-align: center;
   font-size: 22px;
   font-family: "Raleway";
   margin-top: 40px;
-} 
+}
 
-.cantFind{
+.cantFind {
   padding-top: 175px;
-font-family: "poppins";
-font-size: 50px;
-text-align: center;
+  font-family: "poppins";
+  font-size: 50px;
+  text-align: center;
+}
 
-}
-.projects-container{
-  width: 100%;
-    display: block;
-    box-sizing: border-box;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 16px;
-    padding-right: 16px;
-}
-.screenshot{
-  width: 250px  !important;
-}
+

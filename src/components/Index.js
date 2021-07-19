@@ -17,12 +17,12 @@ export default class Home extends Component {
 
               
                 
-                <Typical className="Typer content-desktop"
+                <Typical className="Typer"
             loop={Infinity}
             wrapper="b"
             steps={['Front-end Developer', 2000, 'Mobile & Web Developer', 2000, 'Musician, Songwriter', 2000]}/></div>
                  
-<div className="container-btn"><Link to="/contact"><button className="contact" >Contact me</button></Link></div>
+<div className="container-btn"><Link to="/contact"><button className="contact-btn" >Contact me</button></Link></div>
             
                 
                

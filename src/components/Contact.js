@@ -6,6 +6,9 @@ export default class Contact extends Component {
             <div className="contacts">
               
               <h3 className="contact">Contact Me</h3>
+              <h3 className="contact1">
+                  Contact
+              </h3>
      <div className="underline"></div>
          
          <p className="contact-info">If you would like to get in touch.. <br/>
